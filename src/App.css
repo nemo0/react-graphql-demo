@@ -1,0 +1,124 @@
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4px;
+}
+
+.country-card-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 16px 32px;
+  margin: 8px;
+  text-align: left; /* Align the text to the left */
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 360px;
+}
+
+.country-card-container:hover {
+  transform: translateY(-8px);
+}
+
+.country-code {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.country-name {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.country-capital {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Container styling */
+.country-detail-container {
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Country name styling */
+.country-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Capital, Currency, Continent styling */
+.country-capital,
+.country-currency,
+.country-continent {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Emoji styling */
+.country-emoji {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* States styling */
+.country-states {
+  margin: 1rem 0;
+}
+
+.country-states .state {
+  margin: 0.5rem 0;
+}
+
+/* Languages styling */
+.country-languages {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.country-languages .language {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Loading and Error Messages */
+.loading-message,
+.error-message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.states {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4px;
+}
+
+.state {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 16px 32px;
+  margin: 8px;
+  text-align: left; /* Align the text to the left */
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
